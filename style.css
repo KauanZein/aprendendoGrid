@@ -1,0 +1,17 @@
+.item {
+    background-color: red;
+    border: 1px solid;
+}
+
+.conteiner {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.elemento1 {
+    grid-row-start: 1;
+    grid-row-end: -1;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
